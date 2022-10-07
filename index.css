@@ -10,9 +10,11 @@ html {
 }
 h1 {
   color: rgb(255, 0, 149);
+  font-family: "Silkscreen", cursive;
 }
 p {
   color: rgb(255, 255, 255);
+  font-family: "Silkscreen", cursive;
 }
 a:link {
   color: black;
@@ -33,6 +35,6 @@ a {
 a {
   position: relative;
   left: 352px;
-  top: 25px;
+  top: 20px;
   /* right: 250px"; */
 }
