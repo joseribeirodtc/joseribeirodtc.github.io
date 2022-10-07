@@ -7,9 +7,14 @@ html {
   background-size: 100%;
   background-image: url("./images/rastrodecthulhu3.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 h1 {
   color: rgb(255, 0, 149);
+  font-family: "Silkscreen", cursive;
+}
+h3 {
+  color: rgb(0, 0, 0);
   font-family: "Silkscreen", cursive;
 }
 p {
@@ -32,9 +37,8 @@ a {
   text-decoration: none;
 }
 
-a {
+/* a {
   position: relative;
   left: 352px;
   top: 20px;
-  /* right: 250px"; */
-}
+} */
