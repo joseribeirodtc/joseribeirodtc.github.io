@@ -1,9 +1,8 @@
 html {
-  /* width: 100%; */
+  width: 100%;
   height: 100%;
   margin: 0;
-  /* padding: 0; */
-  /* position: relative; */
+  padding: 0;
   background-size: 100%;
   background-image: url("./images/hld.gif");
   background-repeat: no-repeat;
@@ -13,16 +12,10 @@ html {
 }
 
 body {
-  width: auto;
-  min-height: 100%;
-  /* height: 90vh; */
-  /* box-sizing: border-box; */
-  border: solid 5px;
-  border-color: rgb(255, 0, 149);
-  margin: 15px;
-  padding: 15px;
-  overflow: hidden;
-  /* display: inline-block; */
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -52,18 +45,19 @@ a:active {
 a {
   text-decoration: none;
 }
-/* div {
+#div_master {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-grow: 2;
+  flex-direction: column;
+}
+
+#div_child {
   border: solid 5px;
   border-color: rgb(255, 0, 149);
   margin: 15px;
   padding: 15px;
-  width: 100%;
-  height: 100%;
-  display: inline-block;
-} */
-
-/* a {
-  position: relative;
-  left: 352px;
-  top: 20px;
-} */
+  height: calc(100vh - 30px);
+}
